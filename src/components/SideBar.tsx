@@ -20,7 +20,7 @@ export default function SideBar() {
     
       <div className='flex flex-col items-start justify-between p-4'>
         <Image width={120} height={120} src='/spotifylogo.png' alt='Spotify Logo' className='my-8' />
-        <h1 onClick={logout} className='rounded-xl hover:bg-green-500 bg-white my-8 text-black px-8 py-2'> Logout</h1>
+        <button onClick={logout} className='logout'> Logout</button>
         Sidebar
       </div>
   );

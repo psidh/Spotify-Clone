@@ -5,6 +5,9 @@ const songSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  poster: {
+    type: String,
+  },
   artist: {
     type: String,
     required: true,

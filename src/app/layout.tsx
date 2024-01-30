@@ -1,11 +1,14 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import localFont from "next/font/local"
 
-const inter = Inter({ subsets: ['latin'] });
 
+// const myFont = localFont({ src: './Spotify-Font/GothamLight.ttf' })
+const inter = Inter({subsets : ['latin']})
+ 
 export const metadata: Metadata = {
-  title: 'Spotify Cline',
+  title: 'Spotify Clone',
   description: 'Philkhana Sidharth',
 };
 

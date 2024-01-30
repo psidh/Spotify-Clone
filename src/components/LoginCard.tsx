@@ -81,8 +81,8 @@ export default function Login() {
             Sign In
           </button>
 
-          <a href='/getstarted/step1' className='text-slate-500 my-4'>
-            Already on Netflix?{' '}
+          <a href='/signup' className='text-slate-500 my-4'>
+            Already on Spotify?{' '}
             <span className='text-white text-lg hover:underline underline-offset-2'>
               SignUp now
             </span>

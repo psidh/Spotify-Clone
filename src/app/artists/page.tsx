@@ -3,12 +3,12 @@ import SideBar from '@/components/SideBar';
 import ArtistContent from '@/components/ArtistContent';
 export default function Page() {
   return (
-    <div>
+    <div className=''>
       <div className='flex justify-between items-start'>
         <div className='w-[15%]'>
           <SideBar />
         </div>
-        <div className='w-[85%]'>
+        <div className='w-[85%] bg-gradient-to-b bg-black'>
           <ArtistContent />
         </div>
       </div>

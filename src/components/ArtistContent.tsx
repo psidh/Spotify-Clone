@@ -36,26 +36,26 @@ export default function SongCard(props: SongCardProps): JSX.Element {
   }, []);
 
   const handlePush = (id: string) => {
-    router.push(`/home/${id}`);
+    router.push(`/artists/${id}`);
   };
 
   return (
-    <div className='flex flex-col items-center justify-center mt-16'>
+    <div className='flex flex-col items-center justify-center m-8'>
       <div className='grid grid-cols-4 gap-4'>
         {data.map((artist) => (
-          <div key={artist._id} className=' flex flex-col items-center justify-center
-          rounded-md bg-black bg-opacity-20 cursor-pointer' onClick={() => handlePush(artist._id)}>
-            <Image
+          <div
+            key={artist._id}
+            className=' flex flex-col items-start justify-between text-justify p-4
+          rounded-md bg-[#212121]  cursor-pointer'
+            onClick={() => handlePush(artist._id)}
+          >
+            <img
               src={artist.poster}
-              width={240}
-              height={240}
               alt='artist Cover'
-              className='rounded-t-md w-52 h-48'
+              className='rounded-md object-cover w-60 h-60'
             />
-            <div className='px-4 my-2'>
-              <h1 className='text-lg text-white'>{artist.name}</h1>
-              <h2 className='text-sm text-[#cecece]'>{artist.description}</h2>
-            </div>
+            <h1 className='text-lg text-white'>{artist.name}</h1>
+            <h2 className='text-sm text-[#cecece]'>{artist.description}</h2>
           </div>
         ))}
       </div>

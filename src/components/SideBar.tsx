@@ -17,7 +17,7 @@ export default function SideBar() {
     }
   }
   return (
-      <div className='flex flex-col items-center justify-between p-4'>
+      <div className='flex flex-col items-center justify-start p-4 border-r border-[#1b1b1b]  h-screen'>
         <Image width={120} height={120} src='/spotifylogo.png' alt='Spotify Logo' className='my-8' />
         <a href='/' className='text-xl my-4'> Home </a>
         <a href='/artists' className='text-xl my-4'>Artists</a>

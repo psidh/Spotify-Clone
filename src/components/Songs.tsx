@@ -46,8 +46,8 @@ export default function SongCard(props: SongCardProps): JSX.Element {
           <div key={song._id} className='rounded-md bg-black bg-opacity-20 cursor-pointer' onClick={() => handlePush(song._id)}>
             <Image
               src={song.poster}
-              width={240}
-              height={240}
+              width={220}
+              height={220}
               alt='Song Cover'
               className='rounded-t-md'
             />

@@ -51,7 +51,7 @@ export default function Page({ params }: PageProps): JSX.Element {
         </div>
         <div className='w-[85%]'>
           <div>
-            <div className='bg-gradient-to-b from-[#195111] via-[#0b3200] to-black flex justify-start items-start'>
+            <div className='bg-gradient-to-b from-[#9b5262] via-[#502730] to-black flex justify-start items-start'>
               <div className='px-6 mt-6  w-[30%]'>
                 <a
                   href='/home'

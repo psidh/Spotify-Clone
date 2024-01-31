@@ -4,7 +4,7 @@ import './globals.css';
 import localFont from "next/font/local"
 
 
-// const myFont = localFont({ src: './Spotify-Font/GothamLight.ttf' })
+ const myFont = localFont({ src: './GothamMedium.ttf' })
 const inter = Inter({subsets : ['latin']})
  
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`bg-black text-white ${inter.className}`}>{children}</body>
+      <body className={`bg-black text-white ${myFont.className}`}>{children}</body>
     </html>
   );
 }

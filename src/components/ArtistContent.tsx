@@ -45,7 +45,7 @@ export default function SongCard(props: SongCardProps): JSX.Element {
         {data.map((artist) => (
           <div
             key={artist._id}
-            className=' flex flex-col items-start justify-between text-justify p-4
+            className=' flex flex-col items-start  text-justify p-4
           rounded-md bg-[#212121]  cursor-pointer'
             onClick={() => handlePush(artist._id)}
           >
@@ -54,8 +54,7 @@ export default function SongCard(props: SongCardProps): JSX.Element {
               alt='artist Cover'
               className='rounded-md object-cover w-60 h-60'
             />
-            <h1 className='text-lg text-white'>{artist.name}</h1>
-            <h2 className='text-sm text-[#cecece]'>{artist.description}</h2>
+            <h1 className='text-2xl mt-6 text-white font-semibold'>{artist.name}</h1>
           </div>
         ))}
       </div>

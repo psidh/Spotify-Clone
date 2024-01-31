@@ -14,19 +14,13 @@ const songSchema = new mongoose.Schema({
   },
   album: {
     type: String,
-    required: false,
-  },
-  duration: {
-    type: Number,
-    required: true,
   },
   genre: {
     type: String,
-    required: false,
   },
-  releaseDate: {
-    type: Date,
-    required: false,
+  songUrl: {
+    type: String,
+    required: true,
   },
 });
 

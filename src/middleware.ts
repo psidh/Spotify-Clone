@@ -9,7 +9,7 @@ export function middleware(request: NextRequest) {
   const token = request.cookies.get('token')?.value || '';
 
   if (isPublicPath && token !== '') {
-    return NextResponse.redirect(new URL('/home', request.nextUrl));
+    return NextResponse.redirect(new URL('/', request.nextUrl));
   }
 
   if (!isPublicPath && token === '') {
@@ -18,5 +18,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: [ '/', '/login', '/loginHelp', '/signup', '/home'],
+  matcher: [ '/', '/login', '/artists', '/favorites', '/signup', '/home'],
 };

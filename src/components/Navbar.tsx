@@ -5,7 +5,7 @@ export default function Navbar() {
     <div>
       <div className='flex justify-between items-center p-6'>
         <Image width={120} height={120} src='/spotifylogo.png' alt='' />
-        <h1 className='text-2xl'> Web</h1>
+        <h1 className='text-2xl'>   </h1>
       </div>
     </div>
   );

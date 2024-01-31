@@ -50,7 +50,7 @@ export default function SongCard(props: SongCardProps): JSX.Element {
               width={240}
               height={240}
               alt='artist Cover'
-              className='rounded-t-md'
+              className='rounded-t-md w-52 h-48'
             />
             <div className='px-4 my-2'>
               <h1 className='text-lg text-white'>{artist.name}</h1>

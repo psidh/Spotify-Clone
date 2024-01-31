@@ -14,7 +14,7 @@ export default function Songs() {
         <h1 className='text-lg mt-2 text-white '>Song Name</h1>
         <h2 className='text-sm mt-1 text-[#cecece]'>Artist Name</h2>
         </div>)
-      })}
+      })} 
       </div>
     </div>
 

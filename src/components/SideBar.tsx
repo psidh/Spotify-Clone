@@ -19,7 +19,7 @@ export default function SideBar() {
   return (
       <div className='flex flex-col items-center justify-between p-4'>
         <Image width={120} height={120} src='/spotifylogo.png' alt='Spotify Logo' className='my-8' />
-        <a href='/home' className='text-xl my-4'> Home </a>
+        <a href='/' className='text-xl my-4'> Home </a>
         <a href='/artists' className='text-xl my-4'>Artists</a>
         <a href='/favorites' className='text-xl my-4'>Favorites</a>
         <button onClick={logout} className='logout'> Logout</button>

@@ -1,68 +1,42 @@
-const songs = [
+const artists = [
   {
-    title: 'Shape of You',
-    poster: '/posters/divide.jpg',
-    artist: 'Ed Sheeran',
-    album: '÷',
-    genre: 'Pop',
-    songUrl: '/songs/shape.mp3',
+    name: 'Arijit Singh',
+    poster: 'arijit_singh_poster.jpg', // Placeholder image file name
+    description: 'Arijit Singh is an Indian playback singer and music programmer.',
+    songs: []
   },
   {
-    title: 'Heartless',
-    poster: '/posters/discover.jpg',
-    artist: 'The Weeknd',
-    album: 'Blinding Lights',
-    genre: 'Pop',
-    songUrl: '/songs/heartless.mp3',
+    name: 'Adele',
+    poster: 'adele_poster.jpg', // Placeholder image file name
+    description: 'Adele is an English singer-songwriter. After graduating from the BRIT School in 2006, Adele signed a recording contract with XL Recordings.',
+    songs: []
   },
   {
-    title: 'Khuda Jaane Ke',
-    poster: '/posters/bachna.jpg',
-    artist: 'KK',
-    album: 'Bachna Ae Haseeno',
-    genre: 'Bollywood',
-    songUrl: '/songs/khuda.mp3',
+    name: 'Ed Sheeran',
+    poster: 'ed_sheeran_poster.jpg', // Placeholder image file name
+    description: 'Ed Sheeran is an English singer, songwriter, musician, record producer, actor, and businessman.',
+    songs: []
   },
   {
-    title: 'Love me Again',
-    poster: '/posters/lovemeagain.jpg',
-    artist: 'John Newman',
-    album: 'Love me Again',
-    genre: 'Rock',
-    songUrl: '/songs/lovemeagain.mp3',
+    name: 'Eminem',
+    poster: 'eminem_poster.jpg', // Placeholder image file name
+    description: 'Eminem is an American rapper, songwriter, and record producer.',
+    songs: []
   },
   {
-    title: 'Party Monster',
-    poster: '/posters/heartless.jpg',
-    artist: 'The Weeknd',
-    album: 'Party Monster',
-    genre: 'Rock',
-    songUrl: '/songs/party.mp3',
+    name: 'KK',
+    poster: 'kk_poster.jpg', // Placeholder image file name
+    description: 'KK is an Indian playback singer. He is a prominent singer in Hindi, Telugu, Tamil, Kannada and Malayalam films.',
+    songs: []
   },
   {
-    title: 'Rap God',
-    poster: '/posters/rapgod.webp',
-    artist: 'Eminem',
-    album: 'Imagine',
-    genre: 'Rap',
-    songUrl: '/songs/rapgod.mp3',
-  },
-  {
-    title: 'Rolling in the Deep',
-    poster: '/posters/rolling.jpg',
-    artist: 'Adele',
-    album: 'Single',
-    genre: 'Pop',
-    songUrl: '/songs/rolling.mp3',
-  },
-  {
-    title: 'Skyfall',
-    poster: '/posters/skyfall.jpg',
-    artist: 'Adele',
-    album: 'SkyFall',
-    genre: 'Pop',
-    songUrl: '/songs/skyfall.mp3',
-  },
+    name: 'The Weeknd',
+    poster: 'the_weeknd_poster.jpg', // Placeholder image file name
+    description: 'The Weeknd, is a Canadian singer, songwriter, actor, and record producer.',
+    songs: []
+  }
 ];
 
-export default songs;
+// Each artist object contains name, poster, description, and an empty array for songs
+
+export default artists;

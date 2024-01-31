@@ -42,7 +42,7 @@
   }
 
   .logout{
-    @apply rounded-xl hover:bg-green-500 bg-white my-8 text-black px-8 py-2 transition duration-300 hover:text-white
+    @apply rounded-xl hover:bg-green-500 bg-white my-2 text-black px-8 py-2 transition duration-300 hover:text-white
   }
 
   .gradientCard {

@@ -4,7 +4,7 @@ import './globals.css';
 import localFont from "next/font/local"
 
 
- const myFont = localFont({ src: './GothamMedium.ttf' })
+ const myFont = localFont({ src: './Gotham-Light.otf' })
 const inter = Inter({subsets : ['latin']})
  
 export const metadata: Metadata = {

@@ -1,6 +1,7 @@
-import Image from 'next/image';
+
 
 export default function SongCard() {
+
   return (
     <div>
       <div className='rounded-lg flex justify-between items-center space-x-16'>
@@ -19,7 +20,9 @@ export default function SongCard() {
             className='rounded-l-lg  w-12 h-12 object-cover md:w-24 md:h-24 md:object-cover'
           />
           <h1 className='text-xl md:text-2xl font-bold md:px-8'>Discover</h1>
+          
         </div>
+        
       </div>
     </div>
   );

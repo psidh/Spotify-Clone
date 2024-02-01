@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div className=''>
       <div className='flex justify-between items-start'>
-        <div className='w-[15%]'>
+        <div className='hidden md:flex'>
           <SideBar />
         </div>
         <div className='w-[85%] bg-gradient-to-b bg-black'>

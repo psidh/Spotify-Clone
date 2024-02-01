@@ -1,6 +1,6 @@
-
 'use client';
 import SideBar from '@/components/SideBar';
+import { FaHeart, FaRegHeart } from 'react-icons/fa';
 import Image from 'next/image';
 import AudioPlayer from 'react-h5-audio-player';
 import './styles.css';
@@ -43,6 +43,7 @@ export default function Page({ params }: PageProps): JSX.Element {
     getSong();
   }, [params.id]);
 
+
   return (
     <div>
       <div className='flex justify-between items-start'>
@@ -70,8 +71,11 @@ export default function Page({ params }: PageProps): JSX.Element {
                       alt='Spotify Logo'
                       className='rounded-xl'
                     />
-                    <h1 className='text-3xl font-semibold mt-6'>{song.title}</h1>
+                    <h1 className='text-3xl font-semibold mt-6'>
+                      {song.title}
+                    </h1>
                     <h1 className='text-xl mb-6'>{song.artist}</h1>
+                    <h1 className='text-xl mb-6'>{song.album}</h1>
                     <AudioPlayer
                       autoPlay
                       src={song.songUrl}

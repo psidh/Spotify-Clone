@@ -5,24 +5,20 @@ export default function SongCard() {
     <div>
       <div className='rounded-lg flex justify-between items-center space-x-16'>
         <div className='my-6 rounded-lg flex justify-between items-center bg-gradient-to-r from-green-300 to-blue-600'>
-          <Image
+          <img
             src={'/posters/liked.webp'}
-            width={80}
-            height={80}
             alt='Playlist Cover'
-            className='rounded-l-lg'
+            className='rounded-l-lg  w-12 h-12 md:w-24 md:h-24 md:object-cover'
           />
-          <h1 className='text-2xl font-bold px-8'>Favourites</h1>
+          <h1 className='text-xl md:text-2xl font-bold md:px-8'>Favourites</h1>
         </div>
-        <div className='my-6 rounded-lg flex justify-between items-center bg-gradient-to-r from-teal-500 to-amber-500'>
-          <Image
+        <div className='my-6 rounded-lg flex justify-between items-center bg-gradient-to-r from-teal-500 to-fuchsia-500'>
+          <img
             src={'/posters/discover.jpg'}
-            width={80}
-            height={80}
             alt='Playlist Cover'
-            className='rounded-l-lg'
+            className='rounded-l-lg  w-12 h-12 object-cover md:w-24 md:h-24 md:object-cover'
           />
-          <h1 className='text-2xl font-bold px-8'>Discover Songs</h1>
+          <h1 className='text-xl md:text-2xl font-bold md:px-8'>Discover</h1>
         </div>
       </div>
     </div>

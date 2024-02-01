@@ -5,10 +5,10 @@ export default function Page() {
   return (
     <div>
       <div className='flex justify-between items-start'>
-        <div className='w-[15%]'>
+        <div className='hidden md:flex'>
           <SideBar />
         </div>
-        <div className='w-[85%]'>
+        <div className='w-full md:w-[85%]'>
           <MainContent />
         </div>
       </div>

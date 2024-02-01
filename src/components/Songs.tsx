@@ -41,15 +41,13 @@ export default function SongCard(props: SongCardProps): JSX.Element {
 
   return (
     <div className='flex flex-col items-center justify-center'>
-      <div className='grid grid-cols-5 gap-x-6 gap-y-6'>
+      <div className='grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-x-6 gap-y-6'>
         {data.map((song) => (
           <div key={song._id} className='rounded-md bg-black bg-opacity-20 cursor-pointer' onClick={() => handlePush(song._id)}>
-            <Image
+            <img
               src={song.poster}
-              width={220}
-              height={220}
               alt='Song Cover'
-              className='rounded-t-md'
+              className='rounded-t-md object-cover w-full h-48'
             />
             <div className='px-4 my-3'>
               <h1 className='text-lg text-white'>{song.title}</h1>

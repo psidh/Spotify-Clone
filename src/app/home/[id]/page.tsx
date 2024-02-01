@@ -72,10 +72,10 @@ export default function Page({ params }: PageProps): JSX.Element {
   return (
     <div>
       <div className='flex justify-between items-start'>
-        <div className='w-[15%]'>
+        <div className='hidden md:flex'>
           <SideBar />
         </div>
-        <div className='w-[85%]'>
+        <div className='w-full md:w-[85%]'>
           <div>
             <div className='bg-gradient-to-b from-[#195111] via-[#0b3200] to-black flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center mt-12'>

@@ -75,9 +75,9 @@ export default function Page({ params }: PageProps): JSX.Element {
         <div className='hidden md:flex'>
           <SideBar />
         </div>
-        <div className='w-full md:w-[85%]'>
+        <div className='w-full md:mx-0 md:w-[85%]'>
           <div>
-            <div className='bg-gradient-to-b from-[#195111] via-[#0b3200] to-black flex justify-center items-center'>
+            <div className=' px-4 pb-4 bg-gradient-to-b from-[#195111] via-[#0b3200] to-black flex justify-center items-center'>
               <div className='flex flex-col justify-center items-center mt-12'>
                 {song && (
                   <div className='flex flex-col justify-center items-start'>

@@ -54,7 +54,7 @@ export default function SearchResultsPage({
             <input
               type='text'
               title='search'
-              className='focus:outline-none border-b my-4 bg-black border-white py-3 w-[55%] md:w-[60%]'
+              className='focus:outline-none bg-[#212121] pl-6 my-4 rounded-xl border-white py-3 w-[55%] md:w-[60%]'
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />

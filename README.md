@@ -1,26 +1,16 @@
 # Spotify Clone
 
-use these credentials to login
-
-```
-testuser@example.com
-1234
-```
-
 ## Setup using Docker
 
 1. Clone the repository
 2. Run `docker-compose up`
-3. Visit `http://localhost:3001`
+3. Visit `http://localhost:3000`
 
 ## Features Supported:
-- Login
-- Logout
-- View Products
-- View Product Details
-- Buy Product
-- Add to Cart
-- Wishlist
+- Auth
+- Search Song
+- Play Song
+- Favourite
 
 ## Tech Stack 
 - Next.js, TS, React
@@ -30,4 +20,4 @@ testuser@example.com
 - Node.js
 - Vercel
  
-Demo: [Amazon Clone](https://amazon-clone-psi.vercel.app/)
+Demo: [Spotify Clone](https://spotify-clone-psidh.vercel.app/)
